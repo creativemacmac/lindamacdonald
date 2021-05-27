@@ -1,0 +1,53 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+ 
+   background: linear-gradient(to right, #3204fdba, #9907facc), url(https://picsum.photos/1280/853/?random=1) no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ h1{
+   size: 3rem;
+   color:#F8F8FF;
+ }
+
+h4{
+  color:#F8F8FF;
+  margin-bottom: 50px;
+}
+
+hr{
+  border-color: #F8F8FF;
+  border-width: 3px;
+  max-width: 300px;
+}
+
+.btn{
+  border-radius: 300px;
+}
+
+.btn-xl{
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #740dfd;
+    border: none;
+    box-shadow: inset 0 0 0 0 #620bd3;
+    transition: ease-out 0.3s;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #620bd3;
+    box-shadow: inset 300px 0 0 0 #620bd3;
+    
+}
+
